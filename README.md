@@ -1,70 +1,71 @@
-#Transcend-Project
-#🚀 Transcend – AI-Powered Handwriting Recognition Chat Assistant
-Smart Assistant: Handwritten Digit Recognition Powered by AI
-🧠 Project Overview
+<h1 align="center">✨ Transcend ✨</h1>
+<h3 align="center">🧠 AI-Powered Handwriting Recognition Chat Assistant</h3>
+<p align="center">
+  <em>Smart Assistant: Handwritten Digit & Text Recognition Powered by AI</em>
+</p>
 
-Transcend is an intelligent web-based assistant capable of understanding handwritten text from images and responding intelligently using AI-powered conversational models.
+---
 
-It bridges the gap between visual handwritten input and natural language understanding, allowing users to interact with AI by simply uploading handwritten notes or typing directly in a chat interface.
+## 🚀 Overview
 
-Core Problem Solved:
-Traditional OCR systems struggle to accurately read handwritten content. Transcend leverages deep learning-based OCR (TrOCR) to extract handwriting with improved accuracy and then uses an AI chatbot (powered by OpenAI GPT models) to interpret and respond contextually.
+**Transcend** is an AI-driven web application that bridges the gap between handwritten input and intelligent conversational AI.  
+It allows users to **upload handwritten text or notes**, automatically extract the text using **deep learning-based OCR (TrOCR)**, and get meaningful, conversational responses via an **AI chatbot** powered by OpenAI GPT models.
 
-🛠️ Tech Stack
-Layer	Technologies Used
-Frontend	HTML, CSS, JavaScript
-Backend	Python, Flask
-AI / ML Models	Microsoft TrOCR (via Hugging Face Transformers), OpenAI GPT
-Database	SQLite (for authentication and user data)
-Libraries & Tools	Flask-SQLAlchemy, Transformers, Torch, PIL, Werkzeug
-Environment	Local Flask Server
-🌟 Features
-🏠 Homepage
+### 🎯 Problem Solved
+Traditional OCR tools like Tesseract struggle to read cursive or inconsistent handwriting.  
+**Transcend** overcomes this limitation using **Microsoft’s TrOCR (Transformer-based OCR)**, enabling accurate recognition and understanding of handwritten text.
 
-Introductory page explaining the purpose of Transcend.
+---
 
-Navigation options for Login, Signup, and Chat Interface.
+## 🧩 Tech Stack
 
-🔐 Authentication
+| **Layer** | **Technologies Used** |
+|------------|------------------------|
+| 🖥️ **Frontend** | HTML • CSS • JavaScript |
+| ⚙️ **Backend** | Python • Flask |
+| 🧠 **AI / ML Models** | Microsoft TrOCR (Hugging Face Transformers) • OpenAI GPT |
+| 💾 **Database** | SQLite (for user authentication) |
+| 🧰 **Libraries** | Flask-SQLAlchemy • Torch • Transformers • Pillow • Werkzeug |
+| 🧑‍💻 **Environment** | Local Flask Development Server |
 
-Secure signup and login system using password hashing.
+---
 
-Session-based authentication for user management.
+## 🌟 Features
 
-💬 Chat Interface
+### 🏠 Homepage
+- A clean and welcoming interface introducing the app’s purpose.
+- Navigation to login, signup, or chat interface.
 
-Real-time AI-powered chat resembling ChatGPT.
+### 🔐 Authentication
+- Secure **Signup/Login** using Flask sessions.
+- Passwords safely hashed using **Werkzeug**.
 
-Users can:
+### 💬 Chat Interface
+- Interactive chat UI (ChatGPT-style).
+- Supports:
+  - ✍️ **Handwritten image upload**
+  - 📷 **Live camera capture**
+  - 💬 **Text input**
+  - 🎤 **Voice input (speech-to-text)**
+- Real-time AI responses with **text-to-speech playback**.
 
-Type questions directly.
+### ✍️ OCR (Optical Character Recognition)
+- Integrated **Microsoft TrOCR** for advanced handwriting extraction.
+- Displays recognized text in an editable box with:
+  - 🧠 Grammar correction
+  - 🪄 Summarization
+  - 🔁 Resubmission to chatbot
 
-Upload handwritten images.
+### 🧭 Additional UI Enhancements
+- Modern animated loaders  
+- Image preview & lightbox  
+- Responsive design for mobile and desktop
 
-Use their camera for live capture.
+---
 
-View OCR results and edit before sending to the chatbot.
+## ⚙️ Setup Instructions
 
-✍️ OCR (Optical Character Recognition)
-
-Integrated Microsoft TrOCR model for handwriting extraction.
-
-Handles both printed and cursive handwriting.
-
-Editable OCR result panel with:
-
-Grammar correction
-
-Summarization
-
-Re-send to chatbot options
-
-📸 Image Upload & Preview
-
-Upload or capture handwritten text via webcam.
-
-Automatic image processing and text extraction.
-
-🧩 User Dashboard
-
-Displays chat history and extracted text summaries (optional future scope).
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/Transcend-Project.git
+cd Transcend-Project
