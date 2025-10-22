@@ -84,23 +84,23 @@ Traditional OCR tools like Tesseract struggle to read cursive or inconsistent ha
   5. Chat responses appear in real-time, with text-to-speech support for accessibility.
 
 ###🧩 Folder Structure
-Transcend-Project/
-│
-├── app.py                # Main Flask application
-├── static/
-│   ├── style.css         # Frontend styling
-│   ├── script.js         # Client-side chat and OCR logic
-│   └── uploads/          # Temporary image storage
-│
-├── templates/
-│   ├── home.html
-│   ├── login.html
-│   ├── signup.html
-│   └── index.html        # Chat interface
-│
-├── database.db           # SQLite database
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
+- Transcend-Project/
+- │
+- ├── app.py                # Main Flask application
+- ├── static/
+- │   ├── style.css         # Frontend styling
+- │   ├── script.js         # Client-side chat and OCR logic
+- │   └── uploads/          # Temporary image storage
+- │
+- ├── templates/
+- │   ├── home.html
+- │   ├── login.html
+- │   ├── signup.html
+- │   └── index.html        # Chat interface
+- │
+- ├── database.db           # SQLite database
+- ├── requirements.txt      # Dependencies
+- └── README.md             # Project documentation
 
 ###🏁 Conclusion
 - Transcend demonstrates the potential of combining OCR, AI, and Flask web development to create a truly interactive, intelligent assistant.
