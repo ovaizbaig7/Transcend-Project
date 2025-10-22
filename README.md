@@ -98,7 +98,7 @@ Traditional OCR tools like Tesseract struggle to read cursive or inconsistent ha
 - │   ├── signup.html
 - │   └── index.html        # Chat interface
 - │
-- ├── database.db           # SQLite database
+- ├── database.db           # MongoDB database
 - ├── requirements.txt      # Dependencies
 - └── README.md             # Project documentation
 
