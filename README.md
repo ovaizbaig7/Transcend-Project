@@ -16,8 +16,8 @@ Traditional OCR tools like Tesseract struggle to read cursive or inconsistent ha
 
 ## 🧩 Tech Stack
 
-| **Layer** | **Technologies Used** | **Description** |
-|------------|------------------------|---------------|
+| **Layer** | **Technologies Used** | 
+|------------|------------------------|
 | 🖥️ **Frontend** | HTML • CSS • JavaScript | 
 | ⚙️ **Backend** | Python • Flask |
 | 🧠 **AI / ML Models** | Google Cloud Vision API |
