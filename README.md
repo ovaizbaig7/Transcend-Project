@@ -10,7 +10,7 @@ It allows users to **upload handwritten text or notes**, automatically extract t
 
 ### 🎯 Problem Solved
 Traditional OCR tools like Tesseract struggle to read cursive or inconsistent handwriting.  
-**Transcend** overcomes this limitation using **Microsoft’s TrOCR (Transformer-based OCR)**, enabling accurate recognition and understanding of handwritten text.
+**Transcend** overcomes this limitation using **Google Cloud Vision API**, enabling accurate recognition and understanding of handwritten text.
 
 ---
 
