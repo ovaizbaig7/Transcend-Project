@@ -57,15 +57,52 @@ Traditional OCR tools like Tesseract struggle to read cursive or inconsistent ha
   - 🔁 Resubmission to chatbot
 
 ### 🧭 Additional UI Enhancements
-- Modern animated loaders  
-- Image preview & lightbox  
-- Responsive design for mobile and desktop
+- Modern animated loaders.
+- Image preview & lightbox .
+- Responsive design for mobile and desktop.
 
----
+### 📸 Image Handling
+- Upload or capture handwritten text.
+- Preview before processing.
+- Extracted text is displayed in a separate section.
 
-## ⚙️ Setup Instructions
+###💡 Usage Instructions
+- Once the app is running:
+  1. Register / Login to access the main chat interface.
+  2. Use the chatbox to type queries or upload handwritten images.
+  3. The system will:
+     - Extract text using TrOCR.
+     - Display it for your review.
+     - Generate an AI-powered response.
+  4. Optionally, use:
+     - 🎤 Microphone input for voice commands.
+     - 📷 Camera capture for handwritten notes.
+     - ✍️ OCR editor for correcting extracted text before resubmission.
+  5. Chat responses appear in real-time, with text-to-speech support for accessibility.
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/<your-username>/Transcend-Project.git
-cd Transcend-Project
+###🧩 Folder Structure
+Transcend-Project/
+│
+├── app.py                # Main Flask application
+├── static/
+│   ├── style.css         # Frontend styling
+│   ├── script.js         # Client-side chat and OCR logic
+│   └── uploads/          # Temporary image storage
+│
+├── templates/
+│   ├── home.html
+│   ├── login.html
+│   ├── signup.html
+│   └── index.html        # Chat interface
+│
+├── database.db           # SQLite database
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
+
+###🏁 Conclusion
+- Transcend demonstrates the potential of combining OCR, AI, and Flask web development to create a truly interactive, intelligent assistant.
+It represents a step forward in making AI systems more accessible and human-like through natural handwriting recognition.
+
+###📫 Contact
+- 📧 Email: [ovaiz2004@gmail.com]
+- 🌐 GitHub: https://github.com/ovaizbaig7
