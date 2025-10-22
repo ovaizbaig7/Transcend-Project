@@ -1,9 +1,6 @@
 <h1 align="center">✨ Transcend ✨</h1>
 <h3 align="center">🧠 AI-Powered Handwriting Recognition Chat Assistant</h3>
 <p align="center">
-  <em>Smart Assistant: Handwritten Digit & Text Recognition Powered by AI</em>
-</p>
-
 ---
 
 ## 🚀 Overview
@@ -19,13 +16,13 @@ Traditional OCR tools like Tesseract struggle to read cursive or inconsistent ha
 
 ## 🧩 Tech Stack
 
-| **Layer** | **Technologies Used** |
-|------------|------------------------|
-| 🖥️ **Frontend** | HTML • CSS • JavaScript |
+| **Layer** | **Technologies Used** | **Description** |
+|------------|------------------------|---------------|
+| 🖥️ **Frontend** | HTML • CSS • JavaScript | 
 | ⚙️ **Backend** | Python • Flask |
-| 🧠 **AI / ML Models** | Microsoft TrOCR (Hugging Face Transformers) • OpenAI GPT |
-| 💾 **Database** | SQLite (for user authentication) |
-| 🧰 **Libraries** | Flask-SQLAlchemy • Torch • Transformers • Pillow • Werkzeug |
+| 🧠 **AI / ML Models** | Google Cloud Vision API |
+| 💾 **Database** | MongoDB (for user authentication) |
+| 🧰 **Libraries** | Flask • python-dotenv • os • datetime • Werkzeug |
 | 🧑‍💻 **Environment** | Local Flask Development Server |
 
 ---
@@ -35,10 +32,14 @@ Traditional OCR tools like Tesseract struggle to read cursive or inconsistent ha
 ### 🏠 Homepage
 - A clean and welcoming interface introducing the app’s purpose.
 - Navigation to login, signup, or chat interface.
+  <img width="1899" height="967" alt="Home" src="https://github.com/user-attachments/assets/ec1d26c8-0a9b-47ed-9474-6778a7355476" />
+
 
 ### 🔐 Authentication
 - Secure **Signup/Login** using Flask sessions.
 - Passwords safely hashed using **Werkzeug**.
+<img width="1895" height="901" alt="Signup" src="https://github.com/user-attachments/assets/20eede77-54fa-436c-b3e1-8a790d36b62a" />
+
 
 ### 💬 Chat Interface
 - Interactive chat UI (ChatGPT-style).
@@ -48,9 +49,11 @@ Traditional OCR tools like Tesseract struggle to read cursive or inconsistent ha
   - 💬 **Text input**
   - 🎤 **Voice input (speech-to-text)**
 - Real-time AI responses with **text-to-speech playback**.
+<img width="1919" height="926" alt="image" src="https://github.com/user-attachments/assets/d7e403a7-e464-4f1a-80ed-7b0a13349d27" />
+
 
 ### ✍️ OCR (Optical Character Recognition)
-- Integrated **Microsoft TrOCR** for advanced handwriting extraction.
+- Integrated **Google Cloud Vision API** for advanced handwriting extraction.
 - Displays recognized text in an editable box with:
   - 🧠 Grammar correction
   - 🪄 Summarization
